@@ -1,0 +1,126 @@
+themes:
+  cardiovascular:
+    primary_symptoms:
+      - "chest_pain"
+      - "shortness_of_breath"
+      - "palpitations"
+      - "syncope"
+      - "fatigue"
+    associated_symptoms:
+      - "dizziness"
+      - "edema"
+      - "orthopnea"
+      - "paroxysmal_nocturnal_dyspnea"
+      - "claudication"
+    demographics:
+      - "middle_aged"
+      - "elderly"
+      - "hypertension_risk_factors"
+      - "diabetes_risk_factors"
+      - "smoking_history"
+    common_conditions:
+      - "coronary_artery_disease"
+      - "heart_failure"
+      - "arrhythmias"
+      - "hypertension"
+      - "valvular_disease"
+
+  respiratory:
+    primary_symptoms:
+      - "cough"
+      - "dyspnea"
+      - "chest_tightness"
+      - "wheezing"
+      - "hemoptysis"
+    associated_symptoms:
+      - "fever"
+      - "sputum_production"
+      - "night_sweats"
+      - "weight_loss"
+      - "pleuritic_pain"
+    demographics:
+      - "all_ages"
+      - "smoking_history"
+      - "environmental_exposure"
+      - "occupational_exposure"
+    common_conditions:
+      - "asthma"
+      - "copd"
+      - "pneumonia"
+      - "pulmonary_embolism"
+      - "lung_cancer"
+
+  gastrointestinal:
+    primary_symptoms:
+      - "abdominal_pain"
+      - "nausea"
+      - "vomiting"
+      - "diarrhea"
+      - "constipation"
+    associated_symptoms:
+      - "bloating"
+      - "heartburn"
+      - "weight_loss"
+      - "blood_in_stool"
+      - "jaundice"
+    demographics:
+      - "all_ages"
+      - "dietary_factors"
+      - "stress_related"
+      - "family_history"
+    common_conditions:
+      - "gastroenteritis"
+      - "peptic_ulcer_disease"
+      - "inflammatory_bowel_disease"
+      - "gallbladder_disease"
+      - "appendicitis"
+
+  neurological:
+    primary_symptoms:
+      - "headache"
+      - "dizziness"
+      - "weakness"
+      - "numbness"
+      - "confusion"
+    associated_symptoms:
+      - "vision_changes"
+      - "speech_difficulties"
+      - "memory_problems"
+      - "seizures"
+      - "tremor"
+    demographics:
+      - "all_ages"
+      - "stroke_risk_factors"
+      - "trauma_history"
+      - "medication_effects"
+    common_conditions:
+      - "migraine"
+      - "stroke"
+      - "seizure_disorder"
+      - "peripheral_neuropathy"
+      - "dementia"
+
+  musculoskeletal:
+    primary_symptoms:
+      - "joint_pain"
+      - "back_pain"
+      - "muscle_pain"
+      - "stiffness"
+      - "swelling"
+    associated_symptoms:
+      - "limitation_of_movement"
+      - "muscle_weakness"
+      - "deformity"
+      - "warmth"
+      - "redness"
+    demographics:
+      - "active_individuals"
+      - "elderly"
+      - "occupational_factors"
+      - "sports_related"
+    common_conditions:
+      - "arthritis"
+      - "fibromyalgia"
+      - "back_strain"
+      - "fractures"
+      - "tendinitis"

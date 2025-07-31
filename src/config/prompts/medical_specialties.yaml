@@ -1,0 +1,89 @@
+specialties:
+  internal_medicine:
+    focus_areas: 
+      - "general_medicine"
+      - "chronic_disease_management"
+      - "preventive_care"
+      - "adult_medicine"
+    complexity_levels: 
+      - "routine"
+      - "moderate" 
+      - "complex"
+    common_presentations:
+      - "fatigue"
+      - "chest_pain"
+      - "shortness_of_breath"
+      - "abdominal_pain"
+      - "headache"
+      - "dizziness"
+    diagnostic_approach:
+      - "comprehensive_history"
+      - "systematic_physical_exam"
+      - "evidence_based_testing"
+      - "differential_diagnosis"
+    
+  cardiology:
+    focus_areas:
+      - "coronary_artery_disease"
+      - "heart_failure"
+      - "arrhythmias"
+      - "valvular_disease"
+      - "interventional_cardiology"
+    complexity_levels:
+      - "stable"
+      - "acute"
+      - "critical"
+    common_presentations:
+      - "chest_pain"
+      - "palpitations"
+      - "syncope"
+      - "dyspnea"
+      - "edema"
+    diagnostic_approach:
+      - "detailed_cardiac_history"
+      - "focused_cardiac_exam"
+      - "ecg_interpretation"
+      - "imaging_correlation"
+
+  emergency_medicine:
+    focus_areas:
+      - "trauma"
+      - "acute_medical_conditions"
+      - "critical_care"
+      - "toxicology"
+    complexity_levels:
+      - "urgent"
+      - "emergent"
+      - "critical"
+    common_presentations:
+      - "trauma"
+      - "acute_pain"
+      - "altered_mental_status"
+      - "respiratory_distress"
+      - "shock"
+    diagnostic_approach:
+      - "rapid_assessment"
+      - "priority_based_evaluation"
+      - "point_of_care_testing"
+      - "stabilization_focused"
+
+  family_medicine:
+    focus_areas:
+      - "comprehensive_care"
+      - "preventive_medicine"
+      - "chronic_disease"
+      - "health_maintenance"
+    complexity_levels:
+      - "routine"
+      - "moderate"
+      - "complex"
+    common_presentations:
+      - "wellness_visits"
+      - "chronic_disease_followup"
+      - "acute_illnesses"
+      - "mental_health_concerns"
+    diagnostic_approach:
+      - "holistic_assessment"
+      - "longitudinal_care"
+      - "family_context"
+      - "preventive_screening"

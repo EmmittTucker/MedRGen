@@ -1,0 +1,177 @@
+consultation_phases:
+  opening:
+    doctor_actions:
+      - "greeting_and_introduction"
+      - "establish_rapport"
+      - "confirm_patient_identity"
+      - "explain_consultation_purpose"
+    patient_responses:
+      - "respond_to_greeting"
+      - "express_main_concern"
+      - "provide_initial_context"
+    duration_range: [1, 3]  # minutes
+    
+  chief_complaint:
+    doctor_actions:
+      - "ask_about_main_concern"
+      - "clarify_primary_symptom"
+      - "establish_timeline"
+      - "assess_severity"
+    patient_responses:
+      - "describe_primary_problem"
+      - "provide_symptom_details"
+      - "explain_symptom_impact"
+      - "answer_clarifying_questions"
+    duration_range: [3, 7]
+    
+  history_of_present_illness:
+    doctor_actions:
+      - "detailed_symptom_exploration"
+      - "associated_symptoms_inquiry"
+      - "aggravating_alleviating_factors"
+      - "previous_treatments_attempted"
+    patient_responses:
+      - "provide_detailed_symptom_history"
+      - "describe_symptom_progression"
+      - "mention_related_concerns"
+      - "discuss_previous_interventions"
+    duration_range: [7, 15]
+    
+  past_medical_history:
+    doctor_actions:
+      - "review_chronic_conditions"
+      - "medication_reconciliation"
+      - "surgical_history_review"
+      - "allergy_assessment"
+    patient_responses:
+      - "list_medical_conditions"
+      - "provide_medication_details"
+      - "describe_previous_surgeries"
+      - "mention_known_allergies"
+    duration_range: [3, 8]
+    
+  social_history:
+    doctor_actions:
+      - "lifestyle_factor_assessment"
+      - "occupation_related_exposures"
+      - "substance_use_screening"
+      - "family_history_inquiry"
+    patient_responses:
+      - "describe_lifestyle_habits"
+      - "discuss_work_environment"
+      - "provide_substance_use_history"
+      - "share_family_medical_history"
+    duration_range: [2, 5]
+    
+  physical_examination:
+    doctor_actions:
+      - "explain_examination_process"
+      - "perform_systematic_examination"
+      - "focus_on_relevant_systems"
+      - "document_findings"
+    patient_responses:
+      - "consent_to_examination"
+      - "report_pain_discomfort"
+      - "provide_examination_feedback"
+      - "ask_examination_questions"
+    duration_range: [5, 15]
+    
+  assessment_and_plan:
+    doctor_actions:
+      - "summarize_findings"
+      - "explain_diagnostic_thinking"
+      - "discuss_treatment_options"
+      - "provide_patient_education"
+    patient_responses:
+      - "ask_clarifying_questions"
+      - "express_treatment_preferences"
+      - "voice_concerns_about_plan"
+      - "confirm_understanding"
+    duration_range: [5, 12]
+    
+  closing:
+    doctor_actions:
+      - "schedule_follow_up"
+      - "provide_contact_information"
+      - "give_final_instructions"
+      - "ensure_patient_understanding"
+    patient_responses:
+      - "confirm_follow_up_plans"
+      - "ask_final_questions"
+      - "express_gratitude"
+      - "acknowledge_instructions"
+    duration_range: [1, 3]
+
+conversation_patterns:
+  question_types:
+    open_ended:
+      examples:
+        - "Can you tell me more about that?"
+        - "How would you describe the pain?"
+        - "What concerns you most about this?"
+      usage: "encourage_detailed_responses"
+      
+    closed_ended:
+      examples:
+        - "Is the pain sharp or dull?"
+        - "Have you had this before?"
+        - "Are you taking any medications?"
+      usage: "gather_specific_information"
+      
+    clarifying:
+      examples:
+        - "When you say severe, can you rate it 1-10?"
+        - "By worse in the morning, do you mean..."
+        - "Can you show me where exactly?"
+      usage: "ensure_accurate_understanding"
+
+  response_patterns:
+    patient_hesitation:
+      indicators:
+        - "I'm not sure if this is related, but..."
+        - "This might sound silly, but..."
+        - "I don't know if I should mention this..."
+      doctor_responses:
+        - "Please feel free to share anything you think might be relevant"
+        - "No concern is too small"
+        - "I appreciate you bringing that up"
+        
+    patient_anxiety:
+      indicators:
+        - "I'm really worried this might be..."
+        - "Could this be something serious?"
+        - "I've been thinking about..."
+      doctor_responses:
+        - "I understand your concern"
+        - "Let's work through this together"
+        - "It's natural to be worried"
+        
+    patient_confusion:
+      indicators:
+        - "I don't understand what you mean"
+        - "Could you explain that differently?"
+        - "I'm not sure I follow"
+      doctor_responses:
+        - "Let me explain that in simpler terms"
+        - "I'll try a different way to describe this"
+        - "Please let me know if this makes more sense"
+
+realistic_interruptions:
+  natural_flow:
+    - "doctor_interrupts_for_clarification"
+    - "patient_interrupts_with_related_concern"
+    - "doctor_redirects_conversation_focus"
+    - "patient_asks_immediate_question"
+    
+  timing_patterns:
+    early_consultation:
+      - "patient_adds_forgotten_symptom"
+      - "doctor_clarifies_initial_statement"
+    
+    mid_consultation:
+      - "patient_remembers_relevant_detail"
+      - "doctor_pursues_important_symptom"
+    
+    late_consultation:
+      - "patient_expresses_final_concern"
+      - "doctor_ensures_complete_understanding"

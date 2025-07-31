@@ -1,0 +1,153 @@
+age_groups:
+  pediatric:
+    min_age: 0
+    max_age: 17
+    special_considerations:
+      - "growth_and_development"
+      - "age_appropriate_communication"
+      - "parent_guardian_involvement"
+      - "developmental_milestones"
+      - "vaccination_status"
+    common_conditions:
+      - "respiratory_infections"
+      - "developmental_concerns"
+      - "injuries"
+      - "congenital_conditions"
+
+  young_adult:
+    min_age: 18
+    max_age: 35
+    special_considerations:
+      - "reproductive_health"
+      - "mental_health_concerns"
+      - "lifestyle_factors"
+      - "occupational_health"
+      - "substance_use"
+    common_conditions:
+      - "mental_health_disorders"
+      - "sports_injuries"
+      - "sexually_transmitted_infections"
+      - "substance_abuse"
+
+  middle_aged:
+    min_age: 36
+    max_age: 64
+    special_considerations:
+      - "chronic_disease_onset"
+      - "occupational_stress"
+      - "family_responsibilities"
+      - "preventive_screening"
+      - "hormone_changes"
+    common_conditions:
+      - "hypertension"
+      - "diabetes"
+      - "cardiovascular_disease"
+      - "cancer_screening"
+
+  geriatric:
+    min_age: 65
+    max_age: 100
+    special_considerations:
+      - "polypharmacy"
+      - "frailty_syndrome"
+      - "cognitive_decline"
+      - "social_isolation"
+      - "multiple_comorbidities"
+    common_conditions:
+      - "multiple_chronic_conditions"
+      - "cognitive_impairment"
+      - "falls_risk"
+      - "medication_interactions"
+
+sex_variations:
+  male:
+    specific_conditions:
+      - "prostate_conditions"
+      - "testosterone_related_issues"
+      - "male_pattern_baldness"
+      - "testicular_conditions"
+    presentation_patterns:
+      - "atypical_myocardial_infarction_less_common"
+      - "higher_risk_cardiovascular_disease"
+      - "different_pain_expression"
+      - "reluctance_to_seek_care"
+    
+  female:
+    specific_conditions:
+      - "gynecological_conditions"
+      - "pregnancy_related_conditions" 
+      - "menopause_related_symptoms"
+      - "breast_conditions"
+      - "osteoporosis_higher_risk"
+    presentation_patterns:
+      - "atypical_cardiac_symptoms"
+      - "autoimmune_disease_predisposition"
+      - "hormonal_symptom_variations"
+      - "pain_sensitivity_differences"
+
+  other:
+    specific_considerations:
+      - "hormone_therapy_effects"
+      - "transition_related_health"
+      - "mental_health_support_needs"
+      - "discrimination_healthcare_barriers"
+
+socioeconomic_factors:
+  low_income:
+    health_impacts:
+      - "delayed_healthcare_seeking"
+      - "medication_adherence_challenges"
+      - "chronic_disease_complications"
+      - "stress_related_conditions"
+    barriers:
+      - "transportation_issues"
+      - "work_schedule_conflicts"
+      - "insurance_limitations"
+      - "health_literacy_challenges"
+
+  middle_income:
+    health_impacts:
+      - "work_life_balance_stress"
+      - "preventive_care_access"
+      - "family_health_responsibilities"
+    barriers:
+      - "time_constraints"
+      - "cost_considerations"
+      - "work_commitments"
+
+  high_income:
+    health_impacts:
+      - "executive_stress_conditions"
+      - "lifestyle_related_diseases"
+      - "access_to_specialized_care"
+    barriers:
+      - "time_constraints"
+      - "high_performance_expectations"
+
+cultural_backgrounds:
+  hispanic_latino:
+    health_considerations:
+      - "diabetes_higher_prevalence"
+      - "family_centered_decision_making"
+      - "language_barriers_potential"
+      - "traditional_medicine_integration"
+
+  african_american:
+    health_considerations:
+      - "hypertension_higher_prevalence"
+      - "stroke_higher_risk"
+      - "sickle_cell_considerations"
+      - "healthcare_mistrust_historical"
+
+  asian:
+    health_considerations:
+      - "diabetes_risk_lower_bmi"
+      - "hepatitis_b_screening"
+      - "lactose_intolerance_common"
+      - "family_honor_healthcare_decisions"
+
+  caucasian:
+    health_considerations:
+      - "skin_cancer_higher_risk"
+      - "osteoporosis_considerations"
+      - "genetic_predispositions_varied"

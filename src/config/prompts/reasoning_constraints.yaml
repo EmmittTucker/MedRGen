@@ -1,0 +1,108 @@
+clinical_reasoning_guidelines:
+  evidence_based_practice:
+    requirements:
+      - "base_decisions_on_current_medical_literature"
+      - "follow_established_clinical_guidelines"
+      - "consider_quality_of_evidence"
+      - "acknowledge_uncertainty_when_present"
+    
+  diagnostic_process:
+    steps:
+      - "comprehensive_history_taking"
+      - "thorough_physical_examination"
+      - "hypothesis_generation"
+      - "diagnostic_testing_selection"
+      - "interpretation_of_results"
+      - "differential_diagnosis_refinement"
+    
+  safety_considerations:
+    red_flags:
+      - "chest_pain_with_cardiac_risk_factors"
+      - "severe_headache_with_neurological_signs"
+      - "abdominal_pain_with_peritoneal_signs"
+      - "shortness_of_breath_with_hypoxia"
+      - "altered_mental_status"
+    
+    mandatory_assessments:
+      - "suicide_risk_assessment_when_indicated"
+      - "domestic_violence_screening_when_appropriate"
+      - "substance_abuse_screening"
+      - "medication_reconciliation"
+
+quality_assurance_criteria:
+  medical_accuracy:
+    requirements:
+      - "anatomically_correct_descriptions"
+      - "physiologically_plausible_mechanisms"
+      - "appropriate_diagnostic_criteria_usage"
+      - "evidence_based_treatment_recommendations"
+    
+  clinical_consistency:
+    checks:
+      - "symptoms_align_with_proposed_diagnosis"
+      - "physical_exam_findings_support_diagnosis"
+      - "laboratory_results_consistent_with_condition"
+      - "treatment_plan_matches_diagnosis_severity"
+    
+  professional_standards:
+    requirements:
+      - "use_appropriate_medical_terminology"
+      - "maintain_patient_confidentiality_concepts"
+      - "demonstrate_cultural_sensitivity"
+      - "follow_ethical_medical_principles"
+
+reasoning_complexity_levels:
+  simple:
+    characteristics:
+      - "straightforward_presentation"
+      - "single_system_involvement"
+      - "clear_diagnostic_criteria"
+      - "standard_treatment_protocol"
+    examples:
+      - "uncomplicated_hypertension"
+      - "simple_urinary_tract_infection"
+      - "routine_wellness_visit"
+    
+  moderate:
+    characteristics:
+      - "multiple_symptoms_present"
+      - "differential_diagnosis_required"
+      - "some_atypical_features"
+      - "treatment_modification_needed"
+    examples:
+      - "chest_pain_workup"
+      - "diabetes_with_complications"
+      - "chronic_pain_management"
+    
+  complex:
+    characteristics:
+      - "multiple_system_involvement"
+      - "rare_or_unusual_presentation"
+      - "multiple_comorbidities"
+      - "treatment_complications"
+    examples:
+      - "multisystem_autoimmune_disease"
+      - "rare_genetic_disorder"
+      - "multiple_drug_interactions"
+
+conversation_quality_standards:
+  doctor_communication:
+    requirements:
+      - "professional_but_empathetic_tone"
+      - "clear_explanation_of_medical_concepts"
+      - "appropriate_questioning_techniques"
+      - "respectful_patient_interaction"
+    
+  patient_communication:
+    requirements:
+      - "realistic_symptom_descriptions"
+      - "appropriate_health_literacy_level"
+      - "natural_conversation_flow"
+      - "demographic_appropriate_language"
+    
+  conversation_flow:
+    requirements:
+      - "logical_progression_of_questions"
+      - "appropriate_follow_up_inquiries"
+      - "natural_interruptions_and_clarifications"
+      - "realistic_consultation_length"

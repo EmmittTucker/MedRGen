@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+medical-dataset/
+medical-dataset-env/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Logging
+logs/
+*.log
+
+# Data and Output (protect generated datasets)
+data/output/
+data/temp/
+*.json
+*.csv
+!data/templates/
+!data/examples/
+
+# Model artifacts and cache
+models/
+.cache/
+*.pkl
+*.joblib
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# API Keys and Secrets
+secrets/
+*.key
+*.pem
+config/secrets.yaml
+config/production.yaml
+
+# Medical data (extra protection)
+patient_data/
+medical_records/
+phi_data/
+synthetic_patients/
+
+# Commercial and licensing
+licenses/
+commercial/
+*.license
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
